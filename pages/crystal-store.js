@@ -33,7 +33,7 @@ const CrystalStore = () => {
       ) : (
         <div className={styles.storeLayout}>
           {data.map((product, i) => (
-            <ProductPreview product={product} index={i} />
+            <ProductPreview product={product} index={i} key={i} />
           ))}
         </div>
       )}

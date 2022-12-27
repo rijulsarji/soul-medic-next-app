@@ -39,7 +39,7 @@ const BraceletStore = () => {
       ) : (
         <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.15, duration: 1}} className="storeLayout">
           {data.map((product, i) => (
-            <ProductPreview product={product} index={i} />
+            <ProductPreview product={product} index={i} key={i} />
           ))}
         </motion.div>
       )}
