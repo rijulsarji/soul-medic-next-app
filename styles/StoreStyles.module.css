@@ -1,0 +1,28 @@
+.storeHeading {
+    font-size: 86px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.storeLayout {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+.storeLoad {
+    margin-top: 20px;
+    margin-left: calc(50vw - 75px);
+    width: 150px;
+    animation: jiggle 1.5s linear infinite;
+}
+@keyframes jiggle {
+    0% {transform: translateY(5px);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(5px);}
+}

@@ -1,0 +1,38 @@
+.bannerBody {
+  margin-bottom: 50px;
+}
+
+.bannerBG {
+  margin-top: 50px;
+  width: 80vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../assets/bgImgGif.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.bannerContent {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  gap: 25px;
+  /* margin-bottom: 50px; */
+}
+
+.bannerContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+
+.bannerContent p {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 24px;
+}

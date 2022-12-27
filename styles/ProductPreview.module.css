@@ -1,0 +1,54 @@
+.prodPrevBody {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(111, 89, 142, 0.464);
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+.prodPrevBody:hover {
+    transform: scale(1.02);
+}
+.prodPrevBody img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.prodPrevBody div {
+    background-color: rgba(111, 89, 142);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.prodPrevBody h1 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.prodPrevBody h1:hover {
+    overflow: visible;
+    white-space: normal;
+}
+.prodPrevBody h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
