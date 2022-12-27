@@ -19,6 +19,7 @@
     margin-top: 20px;
     margin-left: calc(50vw - 75px);
     width: 150px;
+    height: 150px;
     animation: jiggle 1.5s linear infinite;
 }
 @keyframes jiggle {

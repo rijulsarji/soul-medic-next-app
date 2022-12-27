@@ -4,6 +4,7 @@ import StorePageBanner from "../components/StorePageBanner";
 import { client } from "../lib/client";
 import styles from "../styles/StoreStyles.module.css";
 import loader from "../assets/loader.png";
+import Image from "next/image";
 
 const CrystalStore = () => {
   const [data, setData] = useState();
@@ -29,7 +30,7 @@ const CrystalStore = () => {
       <h1 className={styles.storeHeading}>Crystals</h1>
 
       {load ? (
-        <img src={loader} className={styles.storeLoad} alt="load" />
+        <Image src={loader} className={styles.storeLoad} alt="load" />
       ) : (
         <div className={styles.storeLayout}>
           {data.map((product, i) => (
