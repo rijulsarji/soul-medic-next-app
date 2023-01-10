@@ -3,14 +3,14 @@
 }
 
 .categoryBody h1 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Playfair Display';
-    font-style: italic;
+    /* font-style: italic; */
     text-align: center;
 }
 
 .categoryFlexbox {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -32,8 +32,8 @@
     padding-bottom: 20px;
     color: #9b72d3;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    /* font-style: italic; */
     font-size: 24px;
     transition: all 0.15s linear;
     cursor: pointer;

@@ -14,19 +14,18 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.35.2",
-    "@sanity/core": "^2.35.0",
-    "@sanity/default-layout": "^2.35.2",
-    "@sanity/default-login": "^2.35.2",
-    "@sanity/desk-tool": "^2.35.2",
+    "@sanity/base": "^2.35.4",
+    "@sanity/core": "^2.35.3",
+    "@sanity/default-layout": "^2.35.4",
+    "@sanity/default-login": "^2.35.4",
+    "@sanity/desk-tool": "^2.35.4",
     "@sanity/eslint-config-studio": "^2.0.1",
-    "@sanity/vision": "^3.0.6",
+    "@sanity/vision": "^3.1.4",
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
     "sanity": "^3.0.6",
     "styled-components": "^5.2.0"
-  },
-  "devDependencies": {}
+  }
 }

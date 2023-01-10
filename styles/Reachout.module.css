@@ -8,7 +8,7 @@
 .reachoutBody h1 {
     font-size: 48px;
     font-family: 'Playfair Display';
-    font-style: italic;
+    /* font-style: italic; */
     text-align: center;
 }
 
@@ -30,8 +30,8 @@
     padding: 15px;
     color: #9b72d3;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    /* font-style: italic; */
     font-size: 24px;
     transition: all 0.15s linear;
     cursor: pointer;

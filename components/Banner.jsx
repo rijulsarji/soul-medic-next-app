@@ -9,7 +9,7 @@ const Banner = () => {
       <div className={styles.bannerBG}></div>
       <div className={styles.bannerContent}>
         <h1>Welcome to Soul Medic</h1>
-        <p>Get Healings Done</p>
+        <p>Get The Healings Done</p>
       </div>
     </motion.div>
   );
