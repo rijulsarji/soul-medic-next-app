@@ -37,3 +37,20 @@
 .footerSocial a:hover {
     font-size: 34px;
 }
+
+@media screen and (max-width: 480px) {
+    .footerBody h2 {
+        font-size: 28px;
+    }
+
+    .footerBody p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footerSocial {
+        width: 90vw;
+        justify-content: center;
+        gap: 40px;
+    }
+}

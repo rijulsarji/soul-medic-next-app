@@ -45,6 +45,25 @@ const Cart = () => {
   //   stripe.redirectToCheckout({ sessionId: data.id });
   // };
 
+  // const textMsg = `${cartItems[0].name} : ₹${cartItems[0].price}\n Total: ₹${totalPrice}`
+  
+  const handleCheckout = () => {
+    let textMsg = "";
+    let tempMsg = "";
+    let finalMsg = "";
+    let priceMsg = "";
+    let date = new Date();
+    date = date.toLocaleString();
+    
+    cartItems.map(item => {
+      tempMsg = item.name.concat(" : ", item.price)
+      textMsg = textMsg.concat("%0a", tempMsg);
+      priceMsg = textMsg.concat("%0aTotal Price: ", totalPrice);
+      finalMsg = priceMsg.concat(`%0aInvoice Time: `, date);
+    })
+    window.open(`https://api.whatsapp.com/send?phone=+918595877026&text=${finalMsg}`, '_blank');
+  }
+
   return (
     <div className={styles.cartWrapper} ref={cartRef}>
       {cartItems.length < 1 && (
@@ -114,9 +133,9 @@ const Cart = () => {
               <button
                 type="button"
                 className={styles.checkoutbtn}
-                // onClick={handleCheckout}
+                onClick={handleCheckout}
               >
-                Pay with RazorPay
+                Proceed to WhatsApp
               </button>
             </div>
           </div>

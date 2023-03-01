@@ -89,3 +89,25 @@
 .popup-content {
     -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
 }
+
+@media screen and (max-width: 480px) {
+    .reachoutBody {
+        width: 90vw;
+    }
+    .reachoutBody h1 {
+        font-size: 28px;
+    }
+
+    .reachoutFlexbox {
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10%;
+    }
+
+    .reachoutButton {
+        width: 40%;
+    }
+    .reachoutButton p {
+        font-size: 18px;
+    }
+}

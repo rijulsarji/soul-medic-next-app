@@ -47,3 +47,28 @@
     gap: 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .navbarBody {
+        padding: 0px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+    .navbarBodyImg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbarLinks {
+        font-size: 18px;
+        justify-content: center;
+        gap: 10px;
+        width: 60%;
+        align-items: center;
+    }
+
+    .navbarLinks button {
+        font-size: 18px;
+    }
+}

@@ -36,3 +36,21 @@
   font-style: italic;
   font-size: 24px;
 }
+
+@media screen and (max-width: 540px) {
+  .bannerBG {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .bannerContent {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .bannerContent h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+}

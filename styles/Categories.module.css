@@ -58,3 +58,38 @@
     background-size: cover;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 480px) {
+    .categoryBody {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .categoryBody h1 {
+        font-size: 28px;
+    }
+
+    .categoryFlexbox {
+        width: 90vw;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .categoryButton {
+        width: 40%;
+    }
+
+    .categoryButton p {
+        font-size: 18px;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .bannerMid {
+        margin-top: 50px;
+        width: 90vw;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+}
