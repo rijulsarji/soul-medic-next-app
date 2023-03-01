@@ -121,3 +121,43 @@
     cursor: pointer;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .cartWrapper {
+        width: 70vw;
+    }
+    
+    .emptyCart {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 50px;
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .cartHeading {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .cartBottom {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .total {
+        margin-top: 10px;
+    }
+}

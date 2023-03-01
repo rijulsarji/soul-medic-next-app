@@ -110,4 +110,8 @@
     .reachoutButton p {
         font-size: 18px;
     }
+
+    .reachoutModal {
+        width: 80vw;
+    }
 }

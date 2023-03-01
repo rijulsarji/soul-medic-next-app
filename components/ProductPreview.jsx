@@ -3,12 +3,12 @@ import { urlFor } from "../lib/client";
 import styles from "../styles/ProductPreview.module.css"
 import { useRouter } from "next/router";
 
-const ProductPreview = ({ product }) => {
+const ProductPreview = ({ product, store }) => {
 
   const router = useRouter();
 
   return (
-    <div className={styles.prodPrevBody} onClick={() => router.push(`/product/${product.slug.current}`)}>
+    <div className={styles.prodPrevBody} onClick={() => router.push(`/product/${store}/${product.slug.current}`)}>
       <img src={urlFor(product.image)} alt="product" />
       <div>
         <h1>{product.name}</h1>

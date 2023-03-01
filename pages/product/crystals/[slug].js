@@ -1,13 +1,13 @@
 import React, { useContext, useState } from "react";
-import { client, urlFor } from "../../lib/client";
+import { client, urlFor } from "../../../lib/client";
 import {
   AiOutlineMinus,
   AiOutlinePlus,
   AiOutlineStar,
   AiFillStar,
 } from "react-icons/ai";
-import { Context } from "../../context/StateContext";
-import styles from "../../styles/ProductSlug.module.css";
+import { Context } from "../../../context/StateContext";
+import styles from "../../../styles/ProductSlug.module.css";
 
 const ProductDetails = ({ product }) => {
 

@@ -29,3 +29,19 @@
     text-align: center;
     width: 80%;
 }
+
+@media screen and (max-width: 480px) {
+    .dashmeetBody {
+        width: 90vw;
+        height: 600px;
+    }
+
+    .dashmeetBody div {
+        width: 50%;
+    }
+
+    .dashmeetBody p {
+        font-size: 18px;
+        width: 95%;
+    }
+}

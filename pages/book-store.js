@@ -34,7 +34,7 @@ const BookStore = () => {
       ) : (
         <div className={styles.storeLayout}>
           {data.map((product, i) => (
-            <ProductPreview product={product} index={i} key={i} />
+            <ProductPreview product={product} store="ebooks" index={i} key={i} />
           ))}
         </div>
       )}

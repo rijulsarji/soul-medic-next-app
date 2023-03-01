@@ -27,3 +27,13 @@
     50% {transform: translateY(-10px);}
     100% {transform: translateY(5px);}
 }
+
+@media screen and (max-width: 480px) {
+    .storeHeading {
+        font-size: 42px;
+    }
+    .storeLayout {
+        margin-top: 30px;
+        grid-template-columns: 90%;
+    }
+}

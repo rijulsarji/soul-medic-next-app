@@ -52,11 +52,15 @@ const Cart = () => {
     let tempMsg = "";
     let finalMsg = "";
     let priceMsg = "";
+    let details = "";
     let date = new Date();
+    let price="";
     date = date.toLocaleString();
     
     cartItems.map(item => {
-      tempMsg = item.name.concat(" : ", item.price)
+      price = item.price.toString();
+      details = price.concat(" ", `(${item.quantity})`)
+      tempMsg = item.name.concat(" : ", details)
       textMsg = textMsg.concat("%0a", tempMsg);
       priceMsg = textMsg.concat("%0aTotal Price: ", totalPrice);
       finalMsg = priceMsg.concat(`%0aInvoice Time: `, date);

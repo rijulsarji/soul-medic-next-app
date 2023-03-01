@@ -25,3 +25,22 @@
     font-style: italic;
     line-height: 38px;
 }
+
+@media screen and (max-width: 480px) {
+    .journeyBody {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .journeyBody h2 {
+        font-size: 28px;
+    }
+
+    .journeyBody p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
