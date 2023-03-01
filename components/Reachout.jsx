@@ -36,8 +36,9 @@ const Reachout = () => {
       <h1>Reach out to us!</h1>
 
       <div className={styles.reachoutFlexbox}>
-        <div className={styles.reachoutButton} 
-        onClick={() => router.push("/about-us")}
+        <div
+          className={styles.reachoutButton}
+          onClick={() => router.push("/about-us")}
         >
           <p>About Soul Medic</p>
         </div>
@@ -46,7 +47,7 @@ const Reachout = () => {
           trigger={
             <div
               className={styles.reachoutButton}
-              onClick={() => window.open("mailto:sarjirijul@gmail.com")}
+              onClick={() => window.open("mailto:abcd@gmail.com")}
             >
               <p>Contact Us</p>
             </div>
