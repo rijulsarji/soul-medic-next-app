@@ -65,7 +65,10 @@ const Cart = () => {
       priceMsg = textMsg.concat("%0aTotal Price: ", totalPrice);
       finalMsg = priceMsg.concat(`%0aInvoice Time: `, date);
     })
-    window.open(`https://api.whatsapp.com/send?phone=+918595877026&text=${finalMsg}`, '_blank');
+    window.open(
+      `https://api.whatsapp.com/send?phone=+919999898562&text=${finalMsg}`,
+      "_blank"
+    );
   }
 
   return (

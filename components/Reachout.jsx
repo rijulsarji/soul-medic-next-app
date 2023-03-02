@@ -58,10 +58,8 @@ const Reachout = () => {
             <h1>Phone Number</h1>
             <p>+91 99998 98562</p>
             <br />
-            <h1>Email ID</h1>
-            <a href="mailto:">abcd@gmail.com</a>
-            <h1>Address</h1>
-            <p>221b Baker St, London NW1 6XE, United Kingdom</p>
+            <h1 style={{marginTop: "15px"}}>Email ID</h1>
+            <p style={{marginTop: "20px", cursor: "pointer"}} onClick={() => window.open("mailto:wadhwadashmeet@gmail.com", '_blank')}>wadhwadashmeet@gmail.com</p>
           </div>
         </Popup>
       </div>
