@@ -18,14 +18,6 @@ const Footer = () => {
           <FaTwitter id="twitter" className={styles.footerIcons} />
         </a>
       </div>
-      <a
-        href="https://github.com/rijulsarji"
-        target="_blank"
-        rel="noreferrer"
-        style={{ paddingTop: "20px", color: "gray", fontSize: "14px" }}
-      >
-        Created by © Rijul Sarji
-      </a>
     </div>
   );
 }
